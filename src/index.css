@@ -92,7 +92,7 @@ button {
     background: radial-gradient( ellipse at left bottom, rgba(22, 24, 47, 1) 0%, rgba(38, 20, 72, 0.9) 59%, rgba(17, 27, 75, 0.9) 100%);
 }
 
-.hero nav {
+.hero Navbar {
     background: #603bbb;
     width: 100%;
     padding: 20px 40px;
@@ -101,12 +101,35 @@ button {
     justify-content: space-between;
 }
 
-.hero nav h2 {
-    color: #fff;
-}
-
-.hero nav button {
+.button {
     width: 86px;
     padding: 8px 0;
     background: #3a2b58;
+}
+
+.gallery {
+    position: relative;
+    width: 100vw;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gallery-img {
+    width: 100%;
+    border: 10px solid #fff;
+    margin: 5px auto;
+}
+
+.footer {
+    background: rgba(38, 20, 72, 0.9);
+    color: white;
+    padding: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
