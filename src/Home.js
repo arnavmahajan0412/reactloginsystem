@@ -33,7 +33,7 @@ const Home = ({ handlelogout, email }) => {
 
                             </Navbar.Text>
                             <Badge color="secondary" badgeContent={itemCount}>
-                                <ShoppingCartIcon />{" "}
+                                <ShoppingCartIcon  style={{color:'white'}}/>{" "}
                             </Badge>
                         </Navbar.Collapse>
                     </Container>
